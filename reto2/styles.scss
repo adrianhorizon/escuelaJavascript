@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+$color-platzi: #00ddcd;
+$color-purple: #877ce9;
+
+body {
+    width: 100%;
+    font-family: sans-serif, 'Roboto';
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient($color-platzi, $color-purple);
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 46px;
+}
+
+p {
+    color: white;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-404 {
+    margin-top: 40vh;
+}
+
+.container-footer {
+    display: grid;
+    grid-auto-rows: 100px; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    grid-gap: 1em;
+}
